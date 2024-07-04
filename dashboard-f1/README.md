@@ -25,6 +25,7 @@ Este projeto consiste em criar um ambiente completo de envio e coleta de dados v
 
 ## Subindo o ambiente
 
+
 1 - Faça o clone deste repositório em seu computador <br>
 2 - Suba o ambiente no docker: ```docker compose -f "docker-compose.yml" up -d --build``` <br>
 
