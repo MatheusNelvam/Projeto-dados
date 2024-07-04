@@ -1,7 +1,6 @@
 # O Projeto
 
 Este projeto consiste em criar um ambiente completo de envio e coleta de dados via streaming. Fazer um tratamento nos dados e a visualização destes em um dashboard.
-Queria que este projeto fosse de fácil replicação para que outras pessoas pudessem estudar o mesmo e evoluir conforme desejassem.
 
 ![FORMULA 1](FLUXO_F1.jpg)
 
@@ -9,32 +8,10 @@ Queria que este projeto fosse de fácil replicação para que outras pessoas pud
 
 # Objetivos
 
-Quando iniciei este projeto tinha alguns objetivos em mente:
-
 - Criar um projeto completo utilizando o docker-compose
 - Visualizar um processo de streaming com Kafka funcionando
 - Utilizar o python como linguaguem para tratamento de dados
 - visualizar o resultado em um dashboard
-
-Ao longo do desenvolvimento do projeto, outros desafios foram aparecendo e quis testar o CHATGPT no apoio que este pode dar no desenvolvimento e resolução de projetos.
-
----
-
-# Inspiração
-
-Este projeto teve seu inicio graças ao e-mail que recebi da [kdnuggets](https://www.kdnuggets.com) com o [artigo](https://www.kdnuggets.com/building-a-formula-1-streaming-data-pipeline-with-kafka-and-risingwave) publicado pelo [Javier Granados](https://www.kdnuggets.com/author/javier-granados) na data de meu aniversário, com o projeto de coletar dados da F1 e fazer uso destes via streaming para visualizar em um dashboard no Grafana.
-Achei a idéia super bacana e quiz reproduzir, fazendo algumas adaptações e incluindo algumas tecnologias.
-Fica aqui meus sinceros agradecimento ao Javier pela inspiração.
-
----
-
-# Por quê?
-
-Desenvolvi esse projeto por curiosidade e diversão :)
-
-Para mais projetos como esse visite o [canal](https://www.youtube.com/@andre_ricardo)...
-
----
 
 # Mão na massa
 
@@ -44,8 +21,7 @@ Para mais projetos como esse visite o [canal](https://www.youtube.com/@andre_ric
 
 1 - Tenha o Docker Compose instalado em seu computador <br>
 2 - Navegador WEB, para visualizar e gerencias os seus comandos <br>
-3 - Um Editor de Texto de sua preferência. Eu uso o Visual Studio! <br>
-4 - Muita curiosidade e vontade de aprender! <br>
+3 - Um Editor de Texto de sua preferência. <br>
 
 ## Subindo o ambiente
 
@@ -77,22 +53,6 @@ Para mais projetos como esse visite o [canal](https://www.youtube.com/@andre_ric
 
 Os Dados utilizados neste projeto foram coletados do [kaggle](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020) <br>
 Estes dados são o resultado da coleta via API do site <http://ergast.com/mrd/> <br>
-
----
-
-# Possibilidades Futuras
-
-Com base neste projeto, é possivel fazer um estudo analistico, pois a base é relativamente pequena, no postgres e estudar sobre BI. <br>
-É possivel adaptar este projeto para visualizar o resultado em outras ferramentas graficas. <br>
-Pode-se evoluir este projeto afim de coletar os dados em tempo real das corridas de F1. <br>
-Adaptar este para acompanhar outros campeonatos. <br>
-
----
-
-# CHATGPT
-
-Uma curiosidade sobre o uso do ChatGPT neste projeto é que foi bastante útil para iniciar a criação do arquivo do docker compose, porém a solução apresentada para o Kafka não funcionou, sendo necessário pesquisar e rever as configurações. <br>
-o ChatGPT é um ótimo aliado no nosso desenvolvimento de software e na resoluçao de problemas, mas ainda não podemos dizer que irá substituir alguém pois apresenta algumas falhas, mas adianta bastante o caminho de pesquisa e codificação. <br>
 
 ---
 
